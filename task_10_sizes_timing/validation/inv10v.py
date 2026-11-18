@@ -33,6 +33,21 @@ def q(v, p):
 
 
 # ---------- 1 ----------
+# wallet's coin balance change in each tx (pre/post token balances of accounts owned by the wallet, this mint), from the raw transactions
+import gzip, json
+WANT = {r["signature"]: (r["wallet"], r["mint"]) for r in TX if r["program"] == "PumpSwap"}
+delta = {}
+with gzip.open(r"D:\bot\analysis\inv06_raw.jsonl.gz", "rt", encoding="utf-8") as f:
+    for line in f:
+        d = json.loads(line)
+        s = d["signature"]
+        if s not in WANT or s in delta:
+            continue
+        w, mt = WANT[s]
+        m = d["tx"]["meta"]
+        pre = sum(int(b["uiTokenAmount"]["amount"]) for b in m.get("preTokenBalances") or [] if b.get("owner") == w and b["mint"] == mt)
+        post = sum(int(b["uiTokenAmount"]["amount"]) for b in m.get("postTokenBalances") or [] if b.get("owner") == w and b["mint"] == mt)
+        delta[s] = post - pre
 m_rows, mism = [], []
 for r in TX:
     if r["program"] != "PumpSwap":
@@ -44,7 +59,8 @@ for r in TX:
     row = dict(signature=r["signature"], wallet=r["wallet"], mint=r["mint"], slot=r["slot"], time_utc=r["time_utc"], buy_arg2_min_out=b2, sell_arg1=s1,
                coin_received_on_buy=got, coin_to_pool_on_sell=to_pool, coin_fee_paid_on_sell=fee, to_pool_plus_fee=to_pool + fee,
                eq_buyarg2_sellarg1=int(b2 == s1), eq_sellarg1_to_pool_plus_fee=int(s1 == to_pool + fee), eq_sellarg1_to_pool=int(s1 == to_pool),
-               diff_sellarg1_minus_to_pool_plus_fee=s1 - (to_pool + fee), received_minus_min_out=got - b2)
+               diff_sellarg1_minus_to_pool_plus_fee=s1 - (to_pool + fee), received_minus_min_out=got - b2,
+               wallet_coin_balance_change=delta.get(r["signature"], ""), balance_change_eq_received_minus_sent=int(delta.get(r["signature"]) == got - to_pool - fee) if r["signature"] in delta else "")
     m_rows.append(row)
     if not row["eq_sellarg1_to_pool_plus_fee"] or not row["eq_buyarg2_sellarg1"]:
         mism.append(row)
@@ -150,7 +166,8 @@ for mt, ts in by_coin.items():
 s_rows.sort(key=lambda r: r["first_utc"])
 wcsv("coin_sessions.csv", s_rows)
 
-res = dict(pumpswap_tx=len(m_rows), eq_buyarg2_sellarg1=sum(r["eq_buyarg2_sellarg1"] for r in m_rows),
+res = dict(pumpswap_tx=len(m_rows), balance_change_found=sum(1 for r in m_rows if r["wallet_coin_balance_change"] != ""),
+           balance_change_eq_received_minus_sent=sum(1 for r in m_rows if r["balance_change_eq_received_minus_sent"] == 1), eq_buyarg2_sellarg1=sum(r["eq_buyarg2_sellarg1"] for r in m_rows),
            eq_sellarg1_to_pool_plus_fee=sum(r["eq_sellarg1_to_pool_plus_fee"] for r in m_rows), eq_sellarg1_to_pool=sum(r["eq_sellarg1_to_pool"] for r in m_rows),
            mismatches=mism, regime_switches_global=switch, per_wallet_switches=len(per_w),
            per_wallet_switch_times={k: sorted({(s["from_regime"] + "→" + s["to_regime"], s["first_after_utc"]) for s in per_w if s["to_regime"] == k}) for k in ("low", "high")},

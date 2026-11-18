@@ -1,5 +1,7 @@
 {
  "pumpswap_tx": 9677,
+ "balance_change_found": 9677,
+ "balance_change_eq_received_minus_sent": 9677,
  "eq_buyarg2_sellarg1": 9677,
  "eq_sellarg1_to_pool_plus_fee": 9672,
  "eq_sellarg1_to_pool": 0,
@@ -20,7 +22,9 @@
    "eq_sellarg1_to_pool_plus_fee": 0,
    "eq_sellarg1_to_pool": 0,
    "diff_sellarg1_minus_to_pool_plus_fee": 1,
-   "received_minus_min_out": 18944550753
+   "received_minus_min_out": 18944550753,
+   "wallet_coin_balance_change": 18944550754,
+   "balance_change_eq_received_minus_sent": 1
   },
   {
    "signature": "2WuT1QmDjQuCRszQCa4fttDTP8v96vqt4tfAF6vSF8wchZRjd7fq9ozPLSAbi9pF7KhTDvCxYZRR3QZ9jVUWNPJY",
@@ -38,7 +42,9 @@
    "eq_sellarg1_to_pool_plus_fee": 0,
    "eq_sellarg1_to_pool": 0,
    "diff_sellarg1_minus_to_pool_plus_fee": 1,
-   "received_minus_min_out": 1478777126
+   "received_minus_min_out": 1478777126,
+   "wallet_coin_balance_change": 1478777127,
+   "balance_change_eq_received_minus_sent": 1
   },
   {
    "signature": "2KeeubfHguqLe2DD9Y1EMusAEiWY9v4mcxWkKS12t6MiEG2mDQaAjfwHsEFvx9pqiPYGbtKXKCTfRCd2JXtYEtv7",
@@ -56,7 +62,9 @@
    "eq_sellarg1_to_pool_plus_fee": 0,
    "eq_sellarg1_to_pool": 0,
    "diff_sellarg1_minus_to_pool_plus_fee": 1,
-   "received_minus_min_out": 4216538595
+   "received_minus_min_out": 4216538595,
+   "wallet_coin_balance_change": 4216538596,
+   "balance_change_eq_received_minus_sent": 1
   },
   {
    "signature": "4Hdv8GSfyVezE31ukhcg3reTNMMUWTk7LF3wn6WgpPCud35TV4vgbp6a6czq5aLuKyjsyMSaVV8kRhLM2ToFfAvx",
@@ -74,7 +82,9 @@
    "eq_sellarg1_to_pool_plus_fee": 0,
    "eq_sellarg1_to_pool": 0,
    "diff_sellarg1_minus_to_pool_plus_fee": 1,
-   "received_minus_min_out": 5895167187
+   "received_minus_min_out": 5895167187,
+   "wallet_coin_balance_change": 5895167188,
+   "balance_change_eq_received_minus_sent": 1
   },
   {
    "signature": "E7STtwZhfchsVuxVDzPnHeK14jkENCCKNnKX5jd7Pdsben1AZhoxuRXZjTc441wA96dEQ33qfmDpsa8yABEH9vM",
@@ -92,7 +102,9 @@
    "eq_sellarg1_to_pool_plus_fee": 0,
    "eq_sellarg1_to_pool": 0,
    "diff_sellarg1_minus_to_pool_plus_fee": 1,
-   "received_minus_min_out": 29943862999
+   "received_minus_min_out": 29943862999,
+   "wallet_coin_balance_change": 29943863000,
+   "balance_change_eq_received_minus_sent": 1
   }
  ],
  "regime_switches_global": [

@@ -1,0 +1,174 @@
+{
+ "pools": 85,
+ "pumpswap_pools": 78,
+ "payer_eq_pool_creator": 76,
+ "payer_eq_coin_creator": 0,
+ "pool_creator_eq_coin_creator": 0,
+ "incoming_transfers": 498,
+ "incoming_sources": 50,
+ "incoming_top": [
+  {
+   "source": "Czg8kh3EYpqgLMUdrV3X3iiBaUdgP7aZYRMYm8xU2BdL",
+   "transfers": 270,
+   "sol": 558.0,
+   "wallets": 9,
+   "first_utc": "2026-11-17T13:43:40Z",
+   "last_utc": "2026-11-17T22:17:37Z",
+   "is_pool_init_payer": 1
+  },
+  {
+   "source": "6e7XUsDbJyxMdDe8zEHHMgWxkC73YAe428mJRSV65sSC",
+   "transfers": 126,
+   "sol": 387.0,
+   "wallets": 9,
+   "first_utc": "2026-11-18T08:29:42Z",
+   "last_utc": "2026-11-18T15:29:52Z",
+   "is_pool_init_payer": 1
+  },
+  {
+   "source": "29iqxoNvRDdx8G5peK3FbDVVt4mayaKKAesvn7m6R9ko",
+   "transfers": 36,
+   "sol": 81.0,
+   "wallets": 9,
+   "first_utc": "2026-11-17T23:17:26Z",
+   "last_utc": "2026-11-18T00:02:33Z",
+   "is_pool_init_payer": 1
+  },
+  {
+   "source": "CPC8iEE1PripNpd7VjofSHENYnoKpFnjmZFDtE8m7QT2",
+   "transfers": 9,
+   "sol": 54.0,
+   "wallets": 9,
+   "first_utc": "2026-11-18T03:08:17Z",
+   "last_utc": "2026-11-18T03:08:17Z",
+   "is_pool_init_payer": 1
+  },
+  {
+   "source": "89coAVTUZetQ4K6Ct4nsqtLtMCaR4X2mWStdBsmdECur",
+   "transfers": 9,
+   "sol": 18.0,
+   "wallets": 9,
+   "first_utc": "2026-11-17T13:31:37Z",
+   "last_utc": "2026-11-17T13:31:38Z",
+   "is_pool_init_payer": 1
+  },
+  {
+   "source": "6x4sJGJa2ZzPL1PqgB2Gy1TsfAowYcHe5zaejDxTkeB",
+   "transfers": 1,
+   "sol": 1.0187e-05,
+   "wallets": 1,
+   "first_utc": "2026-11-17T19:21:51Z",
+   "last_utc": "2026-11-17T19:21:51Z",
+   "is_pool_init_payer": 0
+  },
+  {
+   "source": "EhgYWVBJKjve9Q9e5UW1DUSWmeVV9dtM6oCJGjFyUPH1",
+   "transfers": 1,
+   "sol": 7.261e-06,
+   "wallets": 1,
+   "first_utc": "2026-11-18T00:53:26Z",
+   "last_utc": "2026-11-18T00:53:26Z",
+   "is_pool_init_payer": 0
+  },
+  {
+   "source": "7LcV7NzjE7d2dApgcnY8zeXkHWRsh45Q7ryMGBXJWbt5",
+   "transfers": 3,
+   "sol": 3e-09,
+   "wallets": 3,
+   "first_utc": "2026-11-17T19:20:47Z",
+   "last_utc": "2026-11-17T21:15:26Z",
+   "is_pool_init_payer": 0
+  },
+  {
+   "source": "nvtAN93sVZ7WgaZA2bAbRNUauPrF22DMZMSuFMeXvfA",
+   "transfers": 2,
+   "sol": 2e-09,
+   "wallets": 2,
+   "first_utc": "2026-11-17T21:21:19Z",
+   "last_utc": "2026-11-18T02:34:42Z",
+   "is_pool_init_payer": 0
+  },
+  {
+   "source": "E4ugB39cyq6AL7CLwur8kyp75rRyLXDu1F4UYqfAsRJJ",
+   "transfers": 1,
+   "sol": 1e-09,
+   "wallets": 1,
+   "first_utc": "2026-11-17T19:20:11Z",
+   "last_utc": "2026-11-17T19:20:11Z",
+   "is_pool_init_payer": 0
+  },
+  {
+   "source": "GNt1XU3SyeygCgSiMpxsiSkRPBCi4H8MjxUXHrepmsH8",
+   "transfers": 1,
+   "sol": 1e-09,
+   "wallets": 1,
+   "first_utc": "2026-11-17T19:20:36Z",
+   "last_utc": "2026-11-17T19:20:36Z",
+   "is_pool_init_payer": 0
+  },
+  {
+   "source": "GztNQnNLrk6efEGaoPp6zG3n24T3wGdem1ANeUdZubs2",
+   "transfers": 1,
+   "sol": 1e-09,
+   "wallets": 1,
+   "first_utc": "2026-11-17T19:21:09Z",
+   "last_utc": "2026-11-17T19:21:09Z",
+   "is_pool_init_payer": 0
+  }
+ ],
+ "sessions_gap120": 108,
+ "match_any": "51/105",
+ "match_ge01": "61/105",
+ "tests": {
+  "any": {
+   "sessions": 105,
+   "observed": 51,
+   "funder_blocks": 23,
+   "creator_blocks": 9,
+   "circular": {
+    "rotations": 104,
+    "mean": 14.16,
+    "max": 52,
+    "p": 0.038461538461538464
+   },
+   "block_perm": {
+    "n": 5000,
+    "mean": 13.41,
+    "p95": 38,
+    "max": 60,
+    "p": 0.0007998400319936012
+   },
+   "naive_perm": {
+    "n": 5000,
+    "mean": 14.54,
+    "max": 27,
+    "p": 0.0001999600079984003
+   }
+  },
+  "ge01": {
+   "sessions": 105,
+   "observed": 61,
+   "funder_blocks": 5,
+   "creator_blocks": 9,
+   "circular": {
+    "rotations": 104,
+    "mean": 19.42,
+    "max": 64,
+    "p": 0.0673076923076923
+   },
+   "block_perm": {
+    "n": 5000,
+    "mean": 20.06,
+    "p95": 64,
+    "max": 68,
+    "p": 0.08238352329534093
+   },
+   "naive_perm": {
+    "n": 5000,
+    "mean": 19.75,
+    "max": 35,
+    "p": 0.0001999600079984003
+   }
+  }
+ }
+}
