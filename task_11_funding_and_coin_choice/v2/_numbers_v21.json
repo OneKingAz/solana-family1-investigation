@@ -1,0 +1,77 @@
+{
+ "tests": {
+  "все сессии": {
+   "sessions": 107,
+   "observed": 62,
+   "share": 0.5794,
+   "funder_shifts": 5,
+   "shift_lengths": [
+    2,
+    29,
+    21,
+    26,
+    29
+   ],
+   "circular": {
+    "positions": 107,
+    "ge_observed": 9,
+    "p": 0.0841,
+    "mean": 20.37
+   },
+   "shift_permutations": {
+    "all": 120,
+    "ge_observed": 10,
+    "p": 0.0833,
+    "mean": 20.55
+   }
+  },
+  "только PumpSwap": {
+   "sessions": 100,
+   "observed": 59,
+   "share": 0.59,
+   "funder_shifts": 5,
+   "shift_lengths": [
+    2,
+    23,
+    20,
+    26,
+    29
+   ],
+   "circular": {
+    "positions": 100,
+    "ge_observed": 4,
+    "p": 0.04,
+    "mean": 19.23
+   },
+   "shift_permutations": {
+    "all": 120,
+    "ge_observed": 10,
+    "p": 0.0833,
+    "mean": 19.37
+   }
+  }
+ },
+ "mints": 85,
+ "both_revoked": 85,
+ "mint_owner_programs": {
+  "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb": 85
+ },
+ "init_found": 11,
+ "init_payer_eq_pool_creator": 33,
+ "init_authority_eq_pool_creator": 11,
+ "same_tx_creates_pool": 0,
+ "init_payers": {
+  "7oDFfJ8F": 35,
+  "6e7XUsDb": 9,
+  "": 9,
+  "Czg8kh3E": 9,
+  "2WpevKDi": 5,
+  "8vB8UUGx": 4,
+  "GLEBhVYd": 3,
+  "29iqxoNv": 3,
+  "AopdiFdC": 2,
+  "DjxroBir": 1,
+  "6kpQZpC1": 1,
+  "C6ioSE1K": 1
+ }
+}
