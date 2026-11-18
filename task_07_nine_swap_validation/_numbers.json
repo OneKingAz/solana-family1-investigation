@@ -1,0 +1,95 @@
+{
+ "records_wallet_tx": 28691,
+ "records_err": 16313,
+ "unique_ok_signatures": 12226,
+ "in_several_histories": 75,
+ "fetched_now": 0,
+ "not_received": 0,
+ "decoded": 12226,
+ "signed_by_nine": 11647,
+ "signed_by_others": 579,
+ "others_signers": {
+  "Czg8kh3EYpqgLMUdrV3X3iiBaUdgP7aZYRMYm8xU2BdL": 296,
+  "6e7XUsDbJyxMdDe8zEHHMgWxkC73YAe428mJRSV65sSC": 155,
+  "29iqxoNvRDdx8G5peK3FbDVVt4mayaKKAesvn7m6R9ko": 51,
+  "CPC8iEE1PripNpd7VjofSHENYnoKpFnjmZFDtE8m7QT2": 21,
+  "89coAVTUZetQ4K6Ct4nsqtLtMCaR4X2mWStdBsmdECur": 9,
+  "nvtAN93sVZ7WgaZA2bAbRNUauPrF22DMZMSuFMeXvfA": 2,
+  "7LcV7NzjE7d2dApgcnY8zeXkHWRsh45Q7ryMGBXJWbt5": 2,
+  "4bBrZDZNYSTSjAdctYxTvTePGai32a5KU4kEHBcPF7nb": 1,
+  "GnkQ5G9YeBfD6voQjhHBbquxUfazaFPvQzcCcnndBywu": 1,
+  "6x4sJGJa2ZzPL1PqgB2Gy1TsfAowYcHe5zaejDxTkeB": 1
+ },
+ "pumpswap": {
+  "txs": 9677,
+  "patterns": {
+   "BUY→SELL": 9677
+  },
+  "legs": {
+   "2+0": 9677
+  },
+  "same_pool": 9677,
+  "same_mint": 9677,
+  "wsol_to_pool": 35065.95,
+  "wsol_from_pool": 34291.904,
+  "wsol_net": 774.046,
+  "dex_fee_wsol": 0.0,
+  "network_fee": 0.0484,
+  "rent_paid": 29.6717,
+  "residual": 28.8073,
+  "coin_net_positive": 9677,
+  "coin_net_negative": 0,
+  "unparsed": 0,
+  "native_change": -774.961
+ },
+ "meteora": {
+  "txs": 1970,
+  "patterns": {
+   "BUY→SELL": 1970
+  },
+  "legs": {
+   "0+2": 1970
+  },
+  "same_pool": 1970,
+  "same_mint": 1970,
+  "wsol_to_pool": 11025.818,
+  "wsol_from_pool": 11023.708,
+  "wsol_net": 2.111,
+  "dex_fee_wsol": 0.0,
+  "network_fee": 0.0099,
+  "rent_paid": 5.9598,
+  "residual": 5.8645,
+  "coin_net_positive": 0,
+  "coin_net_negative": 0,
+  "unparsed": 0,
+  "native_change": -2.216
+ },
+ "both": 0,
+ "no_swap": {
+  "txs": 0,
+  "patterns": {},
+  "legs": {},
+  "same_pool": 0,
+  "same_mint": 0,
+  "wsol_to_pool": 0,
+  "wsol_from_pool": 0,
+  "wsol_net": 0,
+  "dex_fee_wsol": 0,
+  "network_fee": 0,
+  "rent_paid": 0,
+  "residual": 0,
+  "coin_net_positive": 0,
+  "coin_net_negative": 0,
+  "unparsed": 0,
+  "native_change": 0
+ },
+ "discriminators": {
+  "PumpSwap | 33e685a4017f83ad | pumpswap.sell(base_in)": 9677,
+  "PumpSwap | c62e1552b4d9e870 | pumpswap.buy_exact_quote_in": 9677,
+  "Meteora DAMM v2 | 414b3f4ceb5b5b88 | meteora.swap2": 3940
+ },
+ "extend_account_instructions": 32,
+ "coins": 85,
+ "coins_all_nine": 58,
+ "calls": 0
+}
