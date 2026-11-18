@@ -1,0 +1,97 @@
+{
+ "cosigned": 82,
+ "cosign_by_payer": {
+  "Czg8kh3E": 26,
+  "29iqxoNv": 15,
+  "CPC8iEE1": 12,
+  "6e7XUsDb": 29
+ },
+ "cosign_by_n": {
+  "1": 8,
+  "2": 14,
+  "3": 49,
+  "4": 9,
+  "5": 1,
+  "9": 1
+ },
+ "burns": 582,
+ "closes": 23939,
+ "burns_by_payer": {
+  "Czg8kh3E": 197,
+  "29iqxoNv": 89,
+  "CPC8iEE1": 83,
+  "6e7XUsDb": 213
+ },
+ "burns_in_own_tx": 0,
+ "closes_rent_to": {
+  "7bL6uz3P (временный)": 2626,
+  "GN1gj63D (временный)": 2624,
+  "AHXA5vwT (временный)": 2618,
+  "2RCjTNMY (временный)": 2612,
+  "5KJEmUWT (временный)": 2598,
+  "B4ExgwFB (временный)": 2594,
+  "ByrLc8xW (временный)": 2568,
+  "9YHUi5cV (временный)": 2564,
+  "6k64Wxj9 (временный)": 2490,
+  "6e7XUsDb": 213,
+  "Czg8kh3E": 206,
+  "29iqxoNv": 134
+ },
+ "closes_rent_to_creators_sol": 0.976427,
+ "rent_check_txs": 11647,
+ "rent_unexplained_max": 0.0,
+ "rent_unexplained_nonzero": 0,
+ "rent_unexplained_sum": 0.0,
+ "positions": 700,
+ "positions_swap_net_positive": 568,
+ "burned_equals_swap_net": 513,
+ "positions_with_burn": 513,
+ "positions_gap_zero": 568,
+ "positions_still_held": 55,
+ "transfers_out_positions": 0,
+ "transfers_in_positions": 0,
+ "burn_payer_is_coin_creator": {
+  "0": 120,
+  "1": 232,
+  "": 161
+ },
+ "swap_to_burn_s_median": 6569,
+ "slot_ties": {
+  "2RCjTNMY": {
+   "first_slot_txs": 1,
+   "last_slot_txs": 1
+  },
+  "5KJEmUWT": {
+   "first_slot_txs": 1,
+   "last_slot_txs": 1
+  },
+  "6k64Wxj9": {
+   "first_slot_txs": 1,
+   "last_slot_txs": 1
+  },
+  "7bL6uz3P": {
+   "first_slot_txs": 1,
+   "last_slot_txs": 1
+  },
+  "9YHUi5cV": {
+   "first_slot_txs": 1,
+   "last_slot_txs": 1
+  },
+  "AHXA5vwT": {
+   "first_slot_txs": 1,
+   "last_slot_txs": 1
+  },
+  "B4ExgwFB": {
+   "first_slot_txs": 1,
+   "last_slot_txs": 1
+  },
+  "ByrLc8xW": {
+   "first_slot_txs": 1,
+   "last_slot_txs": 1
+  },
+  "GN1gj63D": {
+   "first_slot_txs": 1,
+   "last_slot_txs": 1
+  }
+ }
+}
