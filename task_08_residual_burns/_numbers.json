@@ -23,6 +23,8 @@
   "6e7XUsDb": 213
  },
  "burns_in_own_tx": 0,
+ "burn_owner_is_signer": 582,
+ "close_owner_is_signer": 645,
  "closes_rent_to": {
   "7bL6uz3P (временный)": 2626,
   "GN1gj63D (временный)": 2624,

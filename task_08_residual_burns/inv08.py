@@ -233,6 +233,8 @@ res = dict(cosigned=len(cos), cosign_by_payer=dict(collections.Counter(r["fee_pa
            burns=sum(1 for e in ev if e["op"] == "burn"), closes=sum(1 for e in ev if e["op"] == "closeAccount"),
            burns_by_payer=dict(collections.Counter(e["fee_payer"][:8] for e in ev if e["op"] == "burn")),
            burns_in_own_tx=sum(1 for e in ev if e["op"] == "burn" and e["fee_payer"] in N),
+           burn_owner_is_signer=sum(1 for e in ev if e["op"] == "burn" and e["wallet"] in e["signers"].split()),
+           close_owner_is_signer=sum(1 for e in ev if e["op"] == "closeAccount" and "создан" not in str(e["lamports_refunded"]) and e["wallet"] in e["signers"].split()),
            closes_rent_to=dict(collections.Counter((e["rent_destination"][:8] + (" (временный)" if "создан" in str(e["lamports_refunded"]) else "")) for e in ev if e["op"] == "closeAccount").most_common(12)),
            closes_rent_to_creators_sol=round(sum(int(e["lamports_refunded"]) for e in ev if e["op"] == "closeAccount" and e["rent_destination"] not in N and str(e["lamports_refunded"]).isdigit()) / 1e9, 6),
            rent_check_txs=len(rows), rent_unexplained_max=max(une) if une else None, rent_unexplained_nonzero=sum(1 for x in une if x > 1e-9),
