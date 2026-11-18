@@ -1,0 +1,57 @@
+{
+ "calls": 17627,
+ "txs": 9686,
+ "kinds": {
+  "create": 1,
+  "buy": 6311,
+  "other": 194,
+  "sell": 3179,
+  "withdraw": 1
+ },
+ "mint": "EV5nTWTsmpq6HuLCzpqVSyqSSwMPLFX9cU59WTou5wvD",
+ "create": {
+  "t": "2026-11-17T13:42:01Z",
+  "slot": 470554381,
+  "sig": "2zbcTeM2UUX3SSxFSYMtnLTpLY4VRaxh6vpJNM2WS9t4Shpf6tjdp8n8hX7tcLGxakkEKRHzRkYuhDqvRmRwBaws"
+ },
+ "withdraws": [
+  {
+   "t": "2026-11-17T14:02:41Z",
+   "slot": 470560160,
+   "sig": "4y2yr5qtwLhMy4drd37d3NJXqxJaLuHKmprurRoRhp2GwJX4gVFKBTA2fCJY5PXua2jCkMxRP8R6ikDEgipLuDby",
+   "pool_sol_change": -187.194190887,
+   "signer": "Czg8kh3E"
+  }
+ ],
+ "fleet_wallets_trading": 109,
+ "fleet_trades": 7251,
+ "fleet_buy_sol": 3126.966,
+ "fleet_sell_sol": 2985.39,
+ "fleet_result": -141.576,
+ "creator_trades": 1,
+ "others_wallets": 1990,
+ "others_trades": 2238,
+ "others_result": 46.636,
+ "first_fleet_trade": "2026-11-17T13:42:19Z",
+ "last_fleet_trade": "2026-11-17T14:02:41Z",
+ "return_covered": 0,
+ "wallets_with_return": 109,
+ "last_sell_to_return_median": 65,
+ "sells_after_withdraw": 2,
+ "x7": {
+  "wallet": "7hm4V7g2hfdmhaA2c6KLnnAoYsp8CvY8B5xYhCbNjppR",
+  "buys": 59,
+  "buy_sol": 52.208897,
+  "sells": 41,
+  "sell_sol": 52.855875,
+  "trade_result_sol": 0.646979,
+  "first_trade_utc": "2026-11-17T13:42:33Z",
+  "last_trade_utc": "2026-11-17T14:02:38Z",
+  "funded_before_first_return": 1.0,
+  "first_return_utc": "2026-11-17T14:03:23Z",
+  "returned_sol": 9.339575,
+  "sells_before_first_return_sol": 52.855875,
+  "sells_after_withdraw": 0,
+  "last_sell_to_return_s": 45
+ }
+}
