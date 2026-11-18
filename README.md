@@ -16,6 +16,7 @@ public transaction signature.
 | `task_03_park_wallet_flows/` | Task 3: SOL routes of the 109 fleet wallets funded by the GEKKO creator; reconciliation with task 1. |
 | `task_04_fleet_cycle/` | Task 4: what the 109 wallets do in the money cycle. **Read `investigation_report_v2.md`** (corrections after review: no overlapping windows, two return series with slots, 18 funding waves, the nine 29-SOL buy-only wallets, −35.38 SOL is net SOL flow, not P&L). `investigation_report.md` is version 1, kept for comparison. |
 | `task_05_ervp_pool/` | Task 5: all transactions of pool `ErVpTsjX` (fetched over RPC): the fleet traded until the withdrawal second; return series 1 equals each wallet's whole SOL balance after its last trade. |
+| `task_06_nine_wallets/` | Task 6: full history (11 468 tx, RPC) of the nine 29-SOL wallets: funded by and paying back five Family 1 creators (`Czg8kh3E`, `6e7XUsDb`, `29iqxoNv`, `CPC8iEE1`, `89coAVTU`) — a signed link between them; each swap tx buys and sells back in one transaction (~43 300 SOL volume, ~703 SOL net); the "second address" is the wallet's temporary WSOL account. |
 | `solana_summary_2026-11-18.txt` | Earlier summary: buyer patterns, families, pool matrix. |
 
 Each task folder has its report (`investigation_report.md` or `park_flow_summary.md`), the CSV tables it is based on, and the

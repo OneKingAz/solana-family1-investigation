@@ -1,0 +1,33 @@
+{
+ "buys": 8970,
+ "sol_spent": 700.533,
+ "buy_median": 0.0582,
+ "buy_p90": 0.16182,
+ "coins": 71,
+ "coins_known_creator": 50,
+ "coins_all_nine": 46,
+ "sol_by_creator": {
+  "Czg8kh3EYpqgLMUdrV3X3iiBaUdgP7aZYRMYm8xU2BdL": 228.466,
+  "неизвестен": 220.585,
+  "6e7XUsDbJyxMdDe8zEHHMgWxkC73YAe428mJRSV65sSC": 182.769,
+  "GLEBhVYdFuP6Gh4Q7Qan66gYeSc7AjcFYC8gM7aMN6wd": 36.768,
+  "29iqxoNvRDdx8G5peK3FbDVVt4mayaKKAesvn7m6R9ko": 19.785,
+  "CPC8iEE1PripNpd7VjofSHENYnoKpFnjmZFDtE8m7QT2": 6.064,
+  "89coAVTUZetQ4K6Ct4nsqtLtMCaR4X2mWStdBsmdECur": 5.312,
+  "8vB8UUGxTDhZFEW9BRspXdaqNNauYgrLL5GZwbynw9XL": 0.784
+ },
+ "second_addr_unique": 9,
+ "second_addr_per_wallet": {
+  "2RCjTNMY": 1,
+  "5KJEmUWT": 1,
+  "6k64Wxj9": 1,
+  "7bL6uz3P": 1,
+  "9YHUi5cV": 1,
+  "AHXA5vwT": 1,
+  "B4ExgwFB": 1,
+  "ByrLc8xW": 1,
+  "GN1gj63D": 1
+ },
+ "first": "2026-11-17T13:30:54Z",
+ "last": "2026-11-18T14:19:16Z"
+}
