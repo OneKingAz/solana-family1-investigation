@@ -13,7 +13,8 @@ public transaction signature.
 | `data_40_pools/` | 40 pools of 18.11: every swap of the first 60 s (`sol_buyers.csv`), pool matrix, pool paths (`*.jsonl`), walk-forward backtest, scripts, `README.txt` with units and formulas. Files `*_v1.*` are the previous version. |
 | `task_01_creator_funding/` | Task 1: funding of the creators `6e7XUsDb` and `GLEBhVYd`, links of the fleet to the family's infrastructure. |
 | `task_02_dual_roles/` | Task 2: dual roles (creator / fleet / infrastructure), the `свой(создатель)` label, validation of the treasury → sponsor → creator flows, 35.02 SOL payments matched to pool creations by slot. |
-| `task_03_park_wallet_flows/` | Task 3: SOL routes of the 109 fleet wallets funded by the GEKKO creator. |
+| `task_03_park_wallet_flows/` | Task 3: SOL routes of the 109 fleet wallets funded by the GEKKO creator; reconciliation with task 1. |
+| `task_04_fleet_cycle/` | Task 4: what the 109 wallets do in the money cycle — funding waves right after pool creation, wash-trading volume in the GEKKO pool, returns right after the `ErVpTsjX` liquidity withdrawal. |
 | `solana_summary_2026-11-18.txt` | Earlier summary: buyer patterns, families, pool matrix. |
 
 Each task folder has its report (`investigation_report.md` or `park_flow_summary.md`), the CSV tables it is based on, and the
