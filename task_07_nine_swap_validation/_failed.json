@@ -1,0 +1,28 @@
+{
+ "unique_failed": 16313,
+ "fetched": 16306,
+ "not_received": 7,
+ "fee_total_sol": 0.08153,
+ "fee_paid_by_nine_sol": 0.081525,
+ "fee_by_payer": {
+  "5KJEmUWT": 0.01359,
+  "ByrLc8xW": 0.01076,
+  "GN1gj63D": 0.01068,
+  "6k64Wxj9": 0.00995,
+  "7bL6uz3P": 0.00762,
+  "AHXA5vwT": 0.007605,
+  "B4ExgwFB": 0.007275,
+  "9YHUi5cV": 0.00709,
+  "2RCjTNMY": 0.006955,
+  "CWKuDqce": 5e-06
+ },
+ "fee_median_lamports": 5000,
+ "errors_top": {
+  "pAMMBay6 | custom program error": 11602,
+  "11111111 | custom program error": 4382,
+  "cpamdpZC | custom program error": 320,
+  " | Program 11111111111111111111111111111111 success": 1,
+  "cpamdpZC | Program cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG failed: SBF program Panicked": 1
+ },
+ "calls": 22424
+}

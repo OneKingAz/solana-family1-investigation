@@ -1,0 +1,224 @@
+{
+ "pumpswap_tx": 9677,
+ "eq_buyarg2_sellarg1": 9677,
+ "eq_sellarg1_to_pool_plus_fee": 9672,
+ "eq_sellarg1_to_pool": 0,
+ "mismatches": [
+  {
+   "signature": "66TD182xPfbF3bbSn5eERcAFUzgmmr5Zp3b3R4rNK5JLXhanwFzTwRQGKaUr7YBLjVxMpKvMunM3bc8Q69qGjHSb",
+   "wallet": "GN1gj63Dzgvdqa79m32Rvt7NjSP36wTTsuJz4fHtX7mF",
+   "mint": "GRoH9LtLutTyrx9WR3aeNHqsEnDtBy2Bck5nwm4ADiyn",
+   "slot": "470572845",
+   "time_utc": "2026-11-17T14:48:09Z",
+   "buy_arg2_min_out": 1297563693939,
+   "sell_arg1": 1297563693939,
+   "coin_received_on_buy": 1316508244692,
+   "coin_to_pool_on_sell": 1296916852615,
+   "coin_fee_paid_on_sell": 646841323,
+   "to_pool_plus_fee": 1297563693938,
+   "eq_buyarg2_sellarg1": 1,
+   "eq_sellarg1_to_pool_plus_fee": 0,
+   "eq_sellarg1_to_pool": 0,
+   "diff_sellarg1_minus_to_pool_plus_fee": 1,
+   "received_minus_min_out": 18944550753
+  },
+  {
+   "signature": "2WuT1QmDjQuCRszQCa4fttDTP8v96vqt4tfAF6vSF8wchZRjd7fq9ozPLSAbi9pF7KhTDvCxYZRR3QZ9jVUWNPJY",
+   "wallet": "2RCjTNMYfivvCHpp9CtxQhBB1kzQG8fptq4nYa3EB3tP",
+   "mint": "GNbCGxMvJYFRkJSVgRgGeF9Xzo8GEEovdXbsiXWVKemY",
+   "slot": "470678076",
+   "time_utc": "2026-11-17T21:05:55Z",
+   "buy_arg2_min_out": 5276731265261,
+   "sell_arg1": 5276731265261,
+   "coin_received_on_buy": 5278210042387,
+   "coin_to_pool_on_sell": 5274100791050,
+   "coin_fee_paid_on_sell": 2630474210,
+   "to_pool_plus_fee": 5276731265260,
+   "eq_buyarg2_sellarg1": 1,
+   "eq_sellarg1_to_pool_plus_fee": 0,
+   "eq_sellarg1_to_pool": 0,
+   "diff_sellarg1_minus_to_pool_plus_fee": 1,
+   "received_minus_min_out": 1478777126
+  },
+  {
+   "signature": "2KeeubfHguqLe2DD9Y1EMusAEiWY9v4mcxWkKS12t6MiEG2mDQaAjfwHsEFvx9pqiPYGbtKXKCTfRCd2JXtYEtv7",
+   "wallet": "GN1gj63Dzgvdqa79m32Rvt7NjSP36wTTsuJz4fHtX7mF",
+   "mint": "Dg7nMis2frVgH2Qh4ttto5ZzUyBEQL8DSpRBCMgZF8HU",
+   "slot": "470691598",
+   "time_utc": "2026-11-17T21:54:37Z",
+   "buy_arg2_min_out": 4781810110765,
+   "sell_arg1": 4781810110765,
+   "coin_received_on_buy": 4786026649360,
+   "coin_to_pool_on_sell": 4779426356970,
+   "coin_fee_paid_on_sell": 2383753794,
+   "to_pool_plus_fee": 4781810110764,
+   "eq_buyarg2_sellarg1": 1,
+   "eq_sellarg1_to_pool_plus_fee": 0,
+   "eq_sellarg1_to_pool": 0,
+   "diff_sellarg1_minus_to_pool_plus_fee": 1,
+   "received_minus_min_out": 4216538595
+  },
+  {
+   "signature": "4Hdv8GSfyVezE31ukhcg3reTNMMUWTk7LF3wn6WgpPCud35TV4vgbp6a6czq5aLuKyjsyMSaVV8kRhLM2ToFfAvx",
+   "wallet": "ByrLc8xWYdfwBfzXRBFmoHEE3DNqCbyFD6YptddLvepE",
+   "mint": "4JSoysQJia6ZxLdhnYRreaQi8itBvAUAJwETpJBTwm3V",
+   "slot": "470872999",
+   "time_utc": "2026-11-18T08:46:14Z",
+   "buy_arg2_min_out": 1165560165833,
+   "sell_arg1": 1165560165833,
+   "coin_received_on_buy": 1171455333020,
+   "coin_to_pool_on_sell": 1164979128860,
+   "coin_fee_paid_on_sell": 581036972,
+   "to_pool_plus_fee": 1165560165832,
+   "eq_buyarg2_sellarg1": 1,
+   "eq_sellarg1_to_pool_plus_fee": 0,
+   "eq_sellarg1_to_pool": 0,
+   "diff_sellarg1_minus_to_pool_plus_fee": 1,
+   "received_minus_min_out": 5895167187
+  },
+  {
+   "signature": "E7STtwZhfchsVuxVDzPnHeK14jkENCCKNnKX5jd7Pdsben1AZhoxuRXZjTc441wA96dEQ33qfmDpsa8yABEH9vM",
+   "wallet": "9YHUi5cV3gjY1hCZNJw54rXCSf2cfpRVSt1TzeSCLzBD",
+   "mint": "DcHGBy3MaboWuqYKYmqoVmFndWcoRq5jW5qWcbRa5RZL",
+   "slot": "470917514",
+   "time_utc": "2026-11-18T11:26:16Z",
+   "buy_arg2_min_out": 1789366463261,
+   "sell_arg1": 1789366463261,
+   "coin_received_on_buy": 1819310326260,
+   "coin_to_pool_on_sell": 1788474456050,
+   "coin_fee_paid_on_sell": 892007210,
+   "to_pool_plus_fee": 1789366463260,
+   "eq_buyarg2_sellarg1": 1,
+   "eq_sellarg1_to_pool_plus_fee": 0,
+   "eq_sellarg1_to_pool": 0,
+   "diff_sellarg1_minus_to_pool_plus_fee": 1,
+   "received_minus_min_out": 29943862999
+  }
+ ],
+ "regime_switches_global": [
+  {
+   "scope": "все девять",
+   "from_regime": "high",
+   "to_regime": "low",
+   "last_tx_before": "3L2PEWeNAUxiEAyN3TSZk2RgmCseavbmNWq7LLVGh8dkQRQ8ZctNkbsSr3ZHahpwD1xVqgfQi1HtfFvUriDAQABM",
+   "last_before_utc": "2026-11-18T02:48:30Z",
+   "last_before_slot": "470773388",
+   "last_before_buy_sol": "3.217950535",
+   "first_tx_after": "3Ebwc53kmGHTcYkTdQaftXsH6619YEtdGWdd1nbhWhUhUPg38zm7X9myWXUWNtXxGQ1NYbmXVBxwWhB7oTXKmp6F",
+   "first_after_utc": "2026-11-18T02:52:09Z",
+   "first_after_slot": "470774418",
+   "first_after_buy_sol": "2.824073984",
+   "gap_s": 219
+  },
+  {
+   "scope": "все девять",
+   "from_regime": "low",
+   "to_regime": "high",
+   "last_tx_before": "qhcibZ9UN2VdTJCiXpCE8ghvyJEj4uy9iqeJN7a1pYJ6owfQarrHoP2ZpJPE9v71KtMFCRibPtscrxZ7HCGUekB",
+   "last_before_utc": "2026-11-18T12:38:14Z",
+   "last_before_slot": "470937534",
+   "last_before_buy_sol": "2.095987528",
+   "first_tx_after": "5oSDNuY23rU5oQ9hFP5VqG9PgZNH6DxrKefW9p85uUf88QbNCDZP1dzoC9oX9qZ4LVaRwR3GKv2pAdEE2XcKvexT",
+   "first_after_utc": "2026-11-18T12:38:32Z",
+   "first_after_slot": "470937617",
+   "first_after_buy_sol": "3.393981509",
+   "gap_s": 18
+  }
+ ],
+ "per_wallet_switches": 18,
+ "per_wallet_switch_times": {
+  "low": [
+   [
+    "high→low",
+    "2026-11-18T02:52:09Z"
+   ],
+   [
+    "high→low",
+    "2026-11-18T02:52:18Z"
+   ],
+   [
+    "high→low",
+    "2026-11-18T02:52:19Z"
+   ],
+   [
+    "high→low",
+    "2026-11-18T02:52:22Z"
+   ],
+   [
+    "high→low",
+    "2026-11-18T02:52:28Z"
+   ],
+   [
+    "high→low",
+    "2026-11-18T02:52:36Z"
+   ],
+   [
+    "high→low",
+    "2026-11-18T02:52:48Z"
+   ],
+   [
+    "high→low",
+    "2026-11-18T02:54:23Z"
+   ]
+  ],
+  "high": [
+   [
+    "low→high",
+    "2026-11-18T12:38:32Z"
+   ],
+   [
+    "low→high",
+    "2026-11-18T12:38:33Z"
+   ],
+   [
+    "low→high",
+    "2026-11-18T12:38:47Z"
+   ],
+   [
+    "low→high",
+    "2026-11-18T12:38:48Z"
+   ],
+   [
+    "low→high",
+    "2026-11-18T12:39:08Z"
+   ],
+   [
+    "low→high",
+    "2026-11-18T12:39:37Z"
+   ],
+   [
+    "low→high",
+    "2026-11-18T12:39:39Z"
+   ],
+   [
+    "low→high",
+    "2026-11-18T12:39:50Z"
+   ],
+   [
+    "low→high",
+    "2026-11-18T12:40:30Z"
+   ]
+  ]
+ },
+ "coin_switches_consecutive": 84,
+ "coin_switch_back_within_10": 0,
+ "coin_switch_in_same_slot": 0,
+ "sessions": {
+  "60": {
+   "coins_split": 9,
+   "sessions_total": 134,
+   "longest_median": 216
+  },
+  "120": {
+   "coins_split": 6,
+   "sessions_total": 108,
+   "longest_median": 247
+  },
+  "180": {
+   "coins_split": 5,
+   "sessions_total": 96,
+   "longest_median": 289
+  }
+ },
+ "span_median": 303
+}
