@@ -1,0 +1,31 @@
+{
+ "pools": [
+  "9Zwc5QmMHDLoSKinmWW8Ryq4uBWmYsfZn66RoXvQeZAV",
+  "B7S2dobdtqNRnZXp2KJVJT1aDbKEaV1kSjAJs51fBYRs",
+  "DNrKkrDpqF4sLtgcFrQHMoYid3oqjrGZabGx93ijhgL",
+  "98nSog1pTH448CKbA6opRjwNZnWVT4a5GJp2sTRcozH8",
+  "ADURRwWVeibAcj8YcaFy6gxatFFx2UJpccaEnQ6YJk43",
+  "5zPPYnL3msGJZWu7swaaAAdiBUaMu62RR1AZVRqups6f"
+ ],
+ "pool_tx": {
+  "9Zwc5QmMHDLoSKinmWW8Ryq4uBWmYsfZn66RoXvQeZAV": 2186,
+  "B7S2dobdtqNRnZXp2KJVJT1aDbKEaV1kSjAJs51fBYRs": 3967,
+  "DNrKkrDpqF4sLtgcFrQHMoYid3oqjrGZabGx93ijhgL": 3135,
+  "98nSog1pTH448CKbA6opRjwNZnWVT4a5GJp2sTRcozH8": 1834,
+  "ADURRwWVeibAcj8YcaFy6gxatFFx2UJpccaEnQ6YJk43": 1918,
+  "5zPPYnL3msGJZWu7swaaAAdiBUaMu62RR1AZVRqups6f": 4292
+ },
+ "skipped_pools": [
+  "Ejt4zzZZV4ESdvCoJhR91NeY5VgAj9rG457iJpD2zh7Z",
+  "FkCw8RkTEjRhxk9VeXptFPr31uMtC1S9RtvGmor7JsmF",
+  "B1tuLdRMpJNwNxA8H9635RrR45vAUDRpvqZmV2czc2ya",
+  "6rLXB5Pk5zKVwfFZEDTg2zdxxH99PdHR7sNNZL3qpigu",
+  "BvcKi8kZrMb7NtVee5iQayVgrKF7smGskNvKPAC5atT5",
+  "2B9G7wnvKmgXJYJQEdA5wdMWzzMt1cEW93Sq88JvrVw2",
+  "HnsjuKvA7zrRxme9bQJphh9eegWGxouaeYemwiCpdTFz",
+  "6Jz27UEKUDmVzd3tEkj753evtZ8ibJhGiArLvucYcWWa",
+  "AFnDc2Bs7Ti62NtTYGUL7Cex3Ve28m5DvzodP4sbu2PL",
+  "GtVUBcQAxrB39vim7rp1TMtdDKxbeQ9eSufuCtNf4Vx3"
+ ],
+ "note": "собрано из inv12.out: анализ inv12.py упал на системном переводе (исправлено), загрузка завершена"
+}
